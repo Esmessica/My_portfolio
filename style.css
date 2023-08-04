@@ -15,7 +15,7 @@
 @font-face {
     font-family: "Poppins";
     src: url(font/Poppins-ExtraBold.ttf);
-    font-weight: bolder; 
+    font-weight: 900; 
 }
 
 @font-face {
@@ -23,6 +23,18 @@
     src: url(font/Poppins-Light.ttf);
     font-weight: lighter; 
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Medium.ttf);
+    font-weight: 500; 
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-SemiBold.ttf);
+    font-weight: 700; 
+}
+
 
 *{
     font-family: "Poppins", sans-serif;
@@ -33,6 +45,10 @@
 .flex{
     display: flex;
     gap: var(--gap, 2rem);
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .primary-header{
@@ -72,18 +88,23 @@
 
 .mobile-nav-toggle{
     display: none;
-
 }
 
-body{
-    overflow-x: hidden;
+.skillset{
+    list-style: none;
+    font-size: 1.8em;
+}
+
+.skillset li{
+    font-weight: 500
 }
 
 
 @media (max-width: 35em) {
+
     .primary-header{
         padding: 2.2rem 2rem;
-        margin: 0 0 2em;
+        margin: 0 0 1.2em 0;
     }
 
     .primary-navigation{
@@ -124,12 +145,26 @@ body{
 
     .big-img{
         align-items: center;
-        padding: 2rem 0;
+        padding: 1.4rem 0;
         width: 100%;
     }
-    .body_contain{
-        padding: 2rem;
 
+    .body_contain{
+        padding: 0 2rem;
+    
+    }
+
+    .name{
+        font-size: 2rem;
+    }
+
+    .skillset{
+        font-size: clamp(1rem, 1.5rem, 4rem );
+        white-space: nowrap;
+        padding: 0;
+    }
+    .name_abilites{
+        width: fit-content;
     }
     
 }
