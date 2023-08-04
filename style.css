@@ -121,5 +121,15 @@ body{
         background-image: url(Pictures/close_nav.png);
         width: 2rem;
     }
+
+    .big-img{
+        align-items: center;
+        padding: 2rem 0;
+        width: 100%;
+    }
+    .body_contain{
+        padding: 2rem;
+
+    }
     
 }
