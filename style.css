@@ -1,0 +1,125 @@
+/*font face import of poppins*/
+
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+  @font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Black.ttf);
+    font-weight: bold; 
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-ExtraBold.ttf);
+    font-weight: bolder; 
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Light.ttf);
+    font-weight: lighter; 
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+}
+
+
+.flex{
+    display: flex;
+    gap: var(--gap, 2rem);
+}
+
+.primary-header{
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    background-color: #B0BBFF;
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+.primary-navigation{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(0, 0%, 0%, 0.75)
+
+}
+
+@supports (backdrop-filter: blur(1rem)){
+    .primary-navigation{
+        background: hsla(300, 38%, 75%, 0.2);
+        backdrop-filter: blur(1rem);
+    }
+}
+
+.primary-navigation a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.primary-header a > [aria-hidden="true"]{
+    margin-inline-end: 0.75em;
+}
+
+.mobile-nav-toggle{
+    display: none;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 35em) {
+    .primary-header{
+        padding: 2.2rem 2rem;
+        margin: 0 0 2em;
+    }
+
+    .primary-navigation{
+        --gap: 2em ;
+        position: fixed;  
+        inset:0 0 0% 35%;
+        flex-direction: column;    
+        padding: min(30vh, 10rem) 2em;
+        background:  hsla(232, 100%, 85%, 0.413);
+        backdrop-filter: blur(1rem); 
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0);    
+    }
+
+    .mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        background-image: url(Pictures/hamburger_nav.png);
+        filter: drop-shadow(0 1px 5px #00000037);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 3rem;
+        aspect-ratio: 1;
+        top: 1.2rem;
+        right: 1.3rem;
+        border: 0;
+        z-index: 9999;
+    }
+    .mobile-nav-toggle[aria-expanded="true"] {
+        background-image: url(Pictures/close_nav.png);
+        width: 2rem;
+    }
+    
+}
