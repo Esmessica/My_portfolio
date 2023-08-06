@@ -1,16 +1,16 @@
 
 .heading{
+    font-size: 1.9rem;
     text-align: center;
+    padding: 0 0 1rem 0;
+    margin: 0 2rem;
+    border-bottom: 5px solid #333;
 }
 
 .skillset-gallery{
     font-size: 1.8em;
     font-size: clamp(1rem, 1.5rem, 4rem );
-    padding: 0;
     margin: 0 10%;
-}
-
-.skillset-gallery {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -18,8 +18,11 @@
 }
 
 .skillset-gallery li {
-    flex: 1;
-    white-space: nowrap; 
+    white-space: nowrap;     
+}
+.skillset-gallery li a{
+    font-weight: 500;
+    font-size: 1.55rem;
 }
 
 .skillset-gallery a {
@@ -29,9 +32,16 @@
     color: #333;
 }
 
+
 @media (max-width:35em){
 
-
+    .heading{
+        margin: 0 0 1rem 0;
+    }
+    
+    .skillset-gallery{
+        margin: 0;
+    }
 
 
 
