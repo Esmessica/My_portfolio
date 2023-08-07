@@ -1,0 +1,8 @@
+.round-window{
+    border-color: #B0BBFF;
+    border-width: 20px 4px 10px 4px;
+    border-radius: 15px;
+    border-style: solid ;
+    padding: 10px;
+    margin: 2rem 0;
+}
