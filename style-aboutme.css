@@ -1,40 +1,53 @@
-
+.button-round{
+    background: #B0BBFF;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+}
 
 @media (max-width:35em){
 
+    .round-window{
+        border-color: #B0BBFF;
+        border-width: 20px 4px 10px 4px;
+        border-radius: 15px;
+        border-style: solid ;
+        padding: 10px;
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+    .round-window img{
+        padding: 2rem 1rem;
+        max-width: 75vw;
+        max-height: auto;
 
-.round-window{
-    border-color: #B0BBFF;
-    border-width: 20px 4px 10px 4px;
-    border-radius: 15px;
-    border-style: solid ;
-    padding: 10px;
-    margin: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 4rem;
-}
-.round-window img{
-    padding: 2rem 1rem;
-    max-width: 75vw;
-    max-height: auto;
+    }
 
-}
+    .text{
+        text-align: left;
+        padding: 1rem;
+    }
 
-.text{
-    text-align: left;
-    padding: 1rem;
-}
+    .container-simple{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.container-simple{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .container-image{
+        max-width: 80vw;
+        margin: 5rem 0;
+    }
 
-.abilities-image{
-    max-width: 80vw;
-    margin: 5rem 0;
-}
+    .certificate{
+        max-width: 60vw;
+        margin: 0 0 5rem 0;
+    }
+
+
 }
