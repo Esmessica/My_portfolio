@@ -5,7 +5,18 @@
     border-style: solid ;
     padding: 10px;
     margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .round-window img{
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+    max-width: 25rem;
+    max-height: auto;
+
+}
+
+.text{
+    text-align: left;
+    padding: 1rem;
 }
