@@ -7,6 +7,12 @@
     font-size: 1.5rem;
 }
 
+.gallery-certificates img{
+    max-width: 35vw;
+    padding: 1rem;
+
+}
+
 @media (max-width:35em){
 
     .round-window{
@@ -49,12 +55,10 @@
         margin: 0 0 5rem 0;
     }
 
-    .gallery-certificates{
-        display: grid;
-        grid-column: 2;
-    }
+
     .gallery-certificates img{
-        max-width: 40%;
+      max-width: 65vw;
+      border-radius: 16px;
 
     }
 
