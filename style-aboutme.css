@@ -70,5 +70,8 @@
     .gallery-certificates img:hover{
         transition: transform 200ms zoomin;
     }
+    .spacer{
+        padding: 4rem;
+    }
 
 }
