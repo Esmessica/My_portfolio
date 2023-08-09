@@ -1,4 +1,13 @@
+.undertext{
+    font-size: 1rem;
+    padding: 0 1.5rem;
 
+}
+
+.doubleline-text{
+    line-height: 0.7;
+    margin: 2rem 0 0 0 ;
+}
 
 @media (max-width:35em){
 
