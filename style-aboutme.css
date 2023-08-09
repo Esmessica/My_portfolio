@@ -8,8 +8,8 @@
 }
 
 .gallery-certificates img{
-    max-width: 35vw;
-    padding: 1rem;
+    max-width: 20vw;
+    padding: 3rem;
 
 }
 
@@ -58,7 +58,10 @@
 
     .gallery-certificates img{
       max-width: 65vw;
-      border-radius: 16px;
+      border-radius: 15px;
+      padding: 0;
+      margin: 1rem;
+      box-shadow: 10px 10px 1px#b0baff53;
 
     }
 
