@@ -9,8 +9,11 @@
 
 .gallery-certificates img{
     max-width: 20vw;
-    padding: 3rem;
-
+    max-height: auto;
+    margin: 2rem 3rem;
+    box-shadow: 8px 7px 1px#b0baff53;
+    border-radius: 10px;
+    padding: 0;
 }
 
 @media (max-width:35em){
@@ -58,11 +61,14 @@
 
     .gallery-certificates img{
       max-width: 65vw;
-      border-radius: 15px;
+
       padding: 0;
       margin: 1rem;
-      box-shadow: 10px 10px 1px#b0baff53;
+ 
 
+    }
+    .gallery-certificates img:hover{
+        transition: transform 200ms zoomin;
     }
 
 }
