@@ -49,5 +49,13 @@
         margin: 0 0 5rem 0;
     }
 
+    .gallery-certificates{
+        display: grid;
+        grid-column: 2;
+    }
+    .gallery-certificates img{
+        max-width: 40%;
+
+    }
 
 }
