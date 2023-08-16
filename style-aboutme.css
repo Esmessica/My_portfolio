@@ -9,6 +9,10 @@
     margin: 2rem 0 0 0 ;
 }
 
+.round-window{
+border: none;
+}
+
 @media (max-width:35em){
 
 
