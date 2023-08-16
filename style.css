@@ -126,10 +126,14 @@ footer img{
     max-height: auto;
     margin: 2rem 3rem;
     box-shadow: 8px 7px 1px#b0baff53;
+    transition: transform 0.5s;
     border-radius: 10px;
     padding: 0;
 }
 
+.gallery-certificates img:hover{
+    transform: scale(1.2);
+}
 @media (max-width: 35em) {
 
     .primary-header{
@@ -253,9 +257,8 @@ footer img{
  
 
     }
-    .gallery-certificates img:hover{
-        transition: transform 200ms zoomin;
-    }
+
+
     .spacer{
         padding: 4rem;
     }
