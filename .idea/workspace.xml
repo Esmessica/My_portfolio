@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef9059db-e6a0-49a3-bfb5-e76124531b51" name="Changes" comment="Designs of project updated">
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-mobile-desktop/desing-tempalte/myportfolio_Kreslicí plátno 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myportfolio.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="force" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VDegKDJts2mobloMZLaqdpMck8" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Esmessica/Desktop/programming_projects/my_portfolio"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef9059db-e6a0-49a3-bfb5-e76124531b51" name="Changes" comment="" />
+      <created>1694375187222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694375187222</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Designs of project updated">
+      <created>1694375288171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694375288171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Designs of project updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Designs of project updated" />
+  </component>
+</project>
