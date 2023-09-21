@@ -37,6 +37,6 @@ input {
 
 }
 
-form{
-    text-align: center;
+input:focus, textarea:focus, select:focus {
+    outline-color: #B0BBFF;
 }
