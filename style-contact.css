@@ -5,7 +5,14 @@
 .contact-form-al{
     background-color: #B0BBFF;
     margin-bottom: 2rem;
+    padding: 0 1rem;
+    color: white;
 
+}
+
+.label-contact-form{
+    margin: 0.5em 0;
+    font-size: 1.5rem;
 }
 
 .input-text{
@@ -13,6 +20,23 @@
     
 }
 
-.label-contact-form {
-    text-align: left;
+input {
+    display: block;
+}
+
+.send{
+    margin-bottom: 1rem;
+}
+
+.input-field{
+    background: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    width: 70vw;   
+    padding: 0.5em;
+
+}
+
+form{
+    text-align: center;
 }
