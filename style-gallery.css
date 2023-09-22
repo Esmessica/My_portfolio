@@ -35,7 +35,7 @@
 }
 
 .gallery-img{
-    width: 70vw;
+    width: 10vw;
     margin: 1rem;
     padding: 0.1rem;
     border-color: #B0BBFF;
@@ -44,26 +44,30 @@
     border-style: solid ;
 }
 
-.container img{
-justify-content: center;
+.container-gallery{
+    text-align: center;
+    margin: 0 10vw;
+
 }
 
 
 @media (max-width:35em){
+    .gallery-img{
+        width: 70vw;
+    }
+    .container-gallery{
+        margin: 0;
+    }
     
     .skillset-gallery{
     justify-content: left;
+    margin: 0;
     }
 
 
     .heading{
         margin: 0 0 1rem 0;
     }
-    
-    .skillset-gallery{
-        margin: 0;
-    }
-
 
 
 }
