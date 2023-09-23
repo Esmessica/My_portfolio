@@ -22,6 +22,7 @@
     form{
         padding: 1rem;
         text-align: right;
+        max-width: 55vw;
     }
 
     .contact-form-al{
@@ -37,14 +38,19 @@
         
     }    
 
+    .text-formating{
+       display: flex;
+       justify-content: flex-end;
+    }
+
     .input-field-big{
         width: 70%;
     }
 
     .label-contact-form{
+        padding: 1rem 0;
         margin-right: 2rem;
         font-size: 1.2rem;
-        
     }
   
 }
