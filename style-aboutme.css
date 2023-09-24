@@ -13,3 +13,37 @@
 border: none;
 }
 
+@media (min-width: 35em) {
+
+    .body_contain{
+        padding: 3rem;
+    }
+
+    .name{
+        padding: 0 0 1rem 0 0;
+        white-space: nowrap;
+        font-size: 4rem;
+    }
+
+    .skillset{
+        padding: 2rem 0 2rem 0;
+
+    }
+
+    .name-skills{
+        margin: 0;        
+        font-size: clamp(2rem, 20vw, 2rem);
+    }
+
+    .index-preview{
+        display: flex;
+        min-height: 90vh;
+        white-space: nowrap;
+    }
+
+    .big-img{
+        width: 40vw;
+        height: fit-content;
+    }
+
+}
