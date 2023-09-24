@@ -20,19 +20,19 @@ border: none;
     }
 
     .name{
-        padding: 0 0 1rem 0 0;
+        padding: 1rem 0 1rem 0 0;
         white-space: nowrap;
-        font-size: 4rem;
+        font-size: clamp(1.5rem, 5vw, 6rem)
     }
 
     .skillset{
-        padding: 2rem 0 2rem 0;
+        padding: 1rem 0 2rem 0;
+        font-size: clamp(1.5rem, 3.5vw, 4.2rem)
 
     }
 
-    .name-skills{
-        margin: 0;        
-        font-size: clamp(2rem, 20vw, 2rem);
+    .name-skills{     
+        max-width: 30%;
     }
 
     .index-preview{
@@ -42,7 +42,9 @@ border: none;
     }
 
     .big-img{
-        width: 40vw;
+        position: absolute;
+        right: 3rem;
+        width: 40%;
         height: fit-content;
     }
 
