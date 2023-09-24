@@ -61,15 +61,23 @@
                     <li>Fotografie |</li>
                 </ul>
             </div>
-             
+             <!--Image loading based on screen size-->
+             <img class="big-img"
+             src="Pictures/Main_abillities_portrait2.png"
+             srcset="Pictures/Main_abillities_portrait2_small.png 480w,
+                     Pictures/Main_abillities_portrait2_medium.png 800w,
+                     Pictures/Main_abillities_portrait2.png"
+             alt="Picture with icons, portrait"
+             loading="lazy">
 
-                <img class="big-img" src="Pictures/Main_abillities_portrait2.png" alt="Picture with icons,portrait" loading="lazy">
         </div>
 
             
             <h1 class="name">| Kdo jsem?</h1>
 
-            <div class="round-window">
+            <!-- container-simple added for big screens css-->
+
+            <div class="round-window container-simple">
 
                 <p class="text">
                     Jmenuji se Anna Lorencová.<br> Aktuálně je mi 23 let.

@@ -23,7 +23,7 @@ border: none;
     .name{
         padding: 1rem 0 1rem 0 0;
         white-space: nowrap;
-        font-size: clamp(1.5rem, 5vw, 6rem)
+        font-size: clamp(1.5rem, 4.5vw, 6rem)
     }
 
     .skillset{
@@ -45,7 +45,7 @@ border: none;
     .big-img{
         position: absolute;
         right: 3rem;
-        width: 40%;
+        width: 43%;
         height: fit-content;
     }
     /*main 1st part of index ends here*/
